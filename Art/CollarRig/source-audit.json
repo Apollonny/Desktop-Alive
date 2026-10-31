@@ -1,0 +1,148 @@
+{
+  "archive": "C:\\Users\\stell\\Desktop\\634. Vtuber 165 218.zip",
+  "sha256": "ca0ee36cee40a9597734208314544c06d4bbc6e7ecda82515c19825aff792b16",
+  "entries": 39,
+  "editableSources": [],
+  "files": [
+    {
+      "name": "icon.png",
+      "bytes": 45557
+    },
+    {
+      "name": "prev.mp4",
+      "bytes": 21998161
+    },
+    {
+      "name": "165 218.moc3",
+      "bytes": 9269952
+    },
+    {
+      "name": "165 218.cdi3.json",
+      "bytes": 17752
+    },
+    {
+      "name": "165 218.vtube.json",
+      "bytes": 93935
+    },
+    {
+      "name": "exp/idle.exp3.json",
+      "bytes": 114
+    },
+    {
+      "name": "165 218.model3.json",
+      "bytes": 500
+    },
+    {
+      "name": "exp/chibi.exp3.json",
+      "bytes": 117
+    },
+    {
+      "name": "165 218.physics3.json",
+      "bytes": 51395
+    },
+    {
+      "name": "exp/jump 2b.exp3.json",
+      "bytes": 580
+    },
+    {
+      "name": "exp/walk 2b.exp3.json",
+      "bytes": 1328
+    },
+    {
+      "name": "motion/idle.motion3.json",
+      "bytes": 356
+    },
+    {
+      "name": "exp/02 dance 2b.exp3.json",
+      "bytes": 1243
+    },
+    {
+      "name": "exp/ACC 2 [BRB].exp3.json",
+      "bytes": 112
+    },
+    {
+      "name": "exp/EXP 3 [SAD].exp3.json",
+      "bytes": 471
+    },
+    {
+      "name": "exp/normal jump.exp3.json",
+      "bytes": 516
+    },
+    {
+      "name": "items_pinned_to_model.json",
+      "bytes": 425
+    },
+    {
+      "name": "exp/EXP 1 [LOVE].exp3.json",
+      "bytes": 111
+    },
+    {
+      "name": "exp/EXP 4 [POUT].exp3.json",
+      "bytes": 535
+    },
+    {
+      "name": "165 218.4096/texture_01.png",
+      "bytes": 118521
+    },
+    {
+      "name": "165 218.4096/texture_00.png",
+      "bytes": 4798832
+    },
+    {
+      "name": "165 218.4096/texture_02.png",
+      "bytes": 4846860
+    },
+    {
+      "name": "165 218.4096/texture_03.png",
+      "bytes": 4136033
+    },
+    {
+      "name": "exp/EXP 5 [ANGRY].exp3.json",
+      "bytes": 585
+    },
+    {
+      "name": "exp/EXP 9 [BLUSH].exp3.json",
+      "bytes": 255
+    },
+    {
+      "name": "motion/jump 2b.motion3.json",
+      "bytes": 5600
+    },
+    {
+      "name": "motion/walk 2b.motion3.json",
+      "bytes": 20907
+    },
+    {
+      "name": "exp/EXP 8 [SCARED].exp3.json",
+      "bytes": 532
+    },
+    {
+      "name": "exp/EXP 2 [EXCITED].exp3.json",
+      "bytes": 258
+    },
+    {
+      "name": "exp/EXP 6 [SHOCKED].exp3.json",
+      "bytes": 231
+    },
+    {
+      "name": "exp/EXP 10 [YANDERE].exp3.json",
+      "bytes": 584
+    },
+    {
+      "name": "exp/EXP 7 [CONFUSED].exp3.json",
+      "bytes": 448
+    },
+    {
+      "name": "motion/02 dance 2b.motion3.json",
+      "bytes": 46062
+    },
+    {
+      "name": "motion/normal jump.motion3.json",
+      "bytes": 2949
+    },
+    {
+      "name": "exp/ACC 1 [WAVY MOUTH].exp3.json",
+      "bytes": 172
+    }
+  ]
+}

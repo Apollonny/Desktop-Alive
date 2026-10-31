@@ -1,0 +1,13 @@
+{
+  "decisionMin": 15,
+  "decisionMax": 40,
+  "walkSpeed": 65,
+  "gravity": 1500,
+  "danceCooldown": 90,
+  "danceDuration": 15.967,
+  "poutAfter": 3,
+  "angryAfter": 8,
+  "curiosity": 0.65,
+  "energy": 0.55,
+  "dragThreshold": 6
+}

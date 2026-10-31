@@ -1,0 +1,11 @@
+MikaUnity/Library/
+MikaUnity/Temp/
+MikaUnity/Obj/
+MikaUnity/Logs/
+MikaUnity/UserSettings/
+Artifacts/
+Builds/
+.tools/
+**/bin/
+**/obj/
+*.csproj.user

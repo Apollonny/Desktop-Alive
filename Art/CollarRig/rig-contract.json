@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "status": "source model missing",
+  "parameters": {
+    "ParamCollarPull": [
+      0,
+      0,
+      1
+    ],
+    "ParamHangBody": [
+      0,
+      0,
+      1
+    ],
+    "ParamHangAngle": [
+      -1,
+      0,
+      1
+    ]
+  },
+  "anchor": {
+    "coordinateSystem": "visible neutral height from foot",
+    "x": 0,
+    "y": 0.78,
+    "calibrated": false
+  },
+  "requiredSource": [
+    "editable .cmo3",
+    "layered collar/shoulder art if missing from source"
+  ],
+  "runtimeModelModified": false
+}

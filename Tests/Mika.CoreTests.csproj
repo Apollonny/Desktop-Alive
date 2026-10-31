@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings></PropertyGroup>
+  <ItemGroup><Compile Include="../MikaUnity/Assets/Mika/Core/*.cs" Link="Core/%(Filename)%(Extension)" />
+  <Compile Include="../MikaUnity/Assets/Mika/Editor/CoreChecks.cs" Link="CoreChecks.cs" /></ItemGroup>
+  <ItemGroup><Compile Include="../MikaUnity/Assets/Mika/Editor/AnimationChecks.cs" Link="AnimationChecks.cs" /></ItemGroup>
+  <ItemGroup><Compile Include="../MikaUnity/Assets/Mika/Editor/GrabSwayChecks.cs" Link="GrabSwayChecks.cs" /></ItemGroup>
+  <ItemGroup><Compile Include="../MikaUnity/Assets/Mika/Editor/LandingChecks.cs" Link="LandingChecks.cs" /></ItemGroup>
+  <ItemGroup><Compile Include="../MikaUnity/Assets/Mika/Editor/CollarRigChecks.cs" Link="CollarRigChecks.cs" /></ItemGroup>
+  <ItemGroup><Compile Include="../MikaUnity/Assets/Mika/Windows/WindowsHost.cs" Link="WindowsHost.cs" /></ItemGroup>
+</Project>

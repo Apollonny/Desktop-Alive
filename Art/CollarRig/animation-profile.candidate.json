@@ -1,0 +1,456 @@
+{
+  "version": 1,
+  "model": "165 218.model3.json",
+  "foot": {
+    "x": 0,
+    "y": 0
+  },
+  "collar": {
+    "x": 0,
+    "y": 0.78
+  },
+  "textureHeight": 1.1,
+  "expressionFade": 0.15,
+  "expressionParameters": [
+    "exp1",
+    "exp2",
+    "exp3",
+    "exp4",
+    "exp5",
+    "exp6",
+    "exp7",
+    "exp8",
+    "exp9",
+    "exp10"
+  ],
+  "physicsParameters": [
+    "LeyePhysic",
+    "LeyePhysic2",
+    "MouthPh",
+    "MouthPh2",
+    "ParamAngleX2",
+    "ParamAngleY2",
+    "ParamAngleZ2",
+    "ParamBodyAngleX2",
+    "ParamBodyAngleY",
+    "ParamBodyAngleY2",
+    "ParamBodyAngleY3",
+    "ParamBodyAngleZ2",
+    "Param_Angle_Rotation",
+    "Param_Angle_Rotation2",
+    "Param_Angle_Rotation3",
+    "Param_Angle_Rotation35",
+    "Param_Angle_Rotation37",
+    "Param_Angle_Rotation38",
+    "Param_Angle_Rotation4",
+    "Param_Angle_Rotation42",
+    "Param_Angle_Rotation43",
+    "Param_Angle_Rotation44",
+    "ReyePhysic",
+    "ReyePhysic2",
+    "acc1",
+    "acc2",
+    "bodyOpt1",
+    "bodyOpt2",
+    "bodyOpt3",
+    "bodyOpt4",
+    "bodyOpt5",
+    "bodyOpt6",
+    "bodyOpt7",
+    "bust",
+    "busty",
+    "capeskirt",
+    "capeskirt2",
+    "capeskirty",
+    "capeskirty2",
+    "fhx",
+    "fhx2",
+    "fhy",
+    "fhy2",
+    "headOpt1",
+    "headOpt2",
+    "line13",
+    "walk10"
+  ],
+  "rigReview": "pending",
+  "bindings": [
+    {
+      "state": "Idle",
+      "look": true,
+      "blink": true,
+      "breath": true,
+      "stages": [
+        {
+          "motion": "motion/idle.motion3.json",
+          "pose": "exp/idle.exp3.json",
+          "duration": 1,
+          "loop": true,
+          "blend": 0.12,
+          "sourceStart": 0,
+          "sourceEnd": -1,
+          "contentPending": false,
+          "ownedParameters": [
+            "motion1"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Walk",
+      "look": false,
+      "blink": true,
+      "breath": true,
+      "stages": [
+        {
+          "motion": "motion/walk 2b.motion3.json",
+          "pose": "exp/walk 2b.exp3.json",
+          "duration": 8.9,
+          "loop": true,
+          "blend": 0.12,
+          "sourceStart": 0,
+          "sourceEnd": -1,
+          "contentPending": false,
+          "ownedParameters": [
+            "ParamAngleY",
+            "ParamAngleZ",
+            "ParamBodyAngleX",
+            "ParamBodyAngleY",
+            "ParamMouthForm",
+            "ParamMouthOpenY",
+            "walk",
+            "walk10",
+            "walk11",
+            "walk12",
+            "walk13",
+            "walk14",
+            "walk15",
+            "walk16",
+            "walk2",
+            "walk7",
+            "walk8",
+            "walk9"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "WindowWalk",
+      "look": false,
+      "blink": true,
+      "breath": true,
+      "stages": [
+        {
+          "motion": "motion/walk 2b.motion3.json",
+          "pose": "exp/walk 2b.exp3.json",
+          "duration": 8.9,
+          "loop": true,
+          "blend": 0.12,
+          "sourceStart": 0,
+          "sourceEnd": -1,
+          "contentPending": false,
+          "ownedParameters": [
+            "ParamAngleY",
+            "ParamAngleZ",
+            "ParamBodyAngleX",
+            "ParamBodyAngleY",
+            "ParamMouthForm",
+            "ParamMouthOpenY",
+            "walk",
+            "walk10",
+            "walk11",
+            "walk12",
+            "walk13",
+            "walk14",
+            "walk15",
+            "walk16",
+            "walk2",
+            "walk7",
+            "walk8",
+            "walk9"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Jump",
+      "look": false,
+      "blink": true,
+      "breath": true,
+      "stages": [
+        {
+          "motion": "motion/normal jump.motion3.json",
+          "pose": "exp/normal jump.exp3.json",
+          "duration": 0.8,
+          "loop": false,
+          "blend": 0.12,
+          "sourceStart": 0,
+          "sourceEnd": 0.7,
+          "contentPending": false,
+          "ownedParameters": [
+            "ParamAngleY",
+            "ParamBodyAngleY",
+            "walk",
+            "walk2"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Dance",
+      "look": false,
+      "blink": true,
+      "breath": true,
+      "stages": [
+        {
+          "motion": "motion/02 dance 2b.motion3.json",
+          "pose": "exp/02 dance 2b.exp3.json",
+          "duration": 15.967,
+          "loop": false,
+          "blend": 0.12,
+          "sourceStart": 0,
+          "sourceEnd": -1,
+          "contentPending": false,
+          "ownedParameters": [
+            "ParamAngleX",
+            "ParamAngleY",
+            "ParamAngleZ",
+            "ParamBodyAngleX",
+            "ParamBodyAngleY",
+            "ParamEyeBallX",
+            "ParamEyeLOpen",
+            "ParamEyeLSmile",
+            "ParamEyeROpen",
+            "ParamEyeRSmile",
+            "ParamMouthForm",
+            "ParamMouthOpenY",
+            "walk",
+            "walk10",
+            "walk2",
+            "walk7",
+            "walk8",
+            "walk9"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "React",
+      "look": true,
+      "blink": true,
+      "breath": true,
+      "stages": [
+        {
+          "motion": "authored/react.motion3.json",
+          "pose": "",
+          "duration": 0.6,
+          "loop": false,
+          "blend": 0.12,
+          "sourceStart": 0,
+          "sourceEnd": -1,
+          "contentPending": false,
+          "ownedParameters": [
+            "ParamAngleY",
+            "ParamAngleZ"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Grabbed",
+      "look": false,
+      "blink": true,
+      "breath": true,
+      "stages": [
+        {
+          "motion": "authored/collar grab.motion3.json",
+          "pose": "",
+          "duration": 0.3,
+          "loop": false,
+          "blend": 0.12,
+          "sourceStart": 0,
+          "sourceEnd": -1,
+          "contentPending": true,
+          "ownedParameters": [
+            "ParamCollarPull",
+            "ParamHangBody",
+            "ParamHangAngle",
+            "walk",
+            "walk2",
+            "walk9",
+            "walk8",
+            "walk10"
+          ]
+        },
+        {
+          "motion": "authored/grabbed idle.motion3.json",
+          "pose": "",
+          "duration": 2,
+          "loop": true,
+          "blend": 0.12,
+          "sourceStart": 0,
+          "sourceEnd": -1,
+          "contentPending": true,
+          "ownedParameters": [
+            "ParamCollarPull",
+            "ParamHangBody",
+            "ParamHangAngle",
+            "walk",
+            "walk2",
+            "walk9",
+            "walk8",
+            "walk10"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Release",
+      "look": false,
+      "blink": true,
+      "breath": true,
+      "stages": [
+        {
+          "motion": "authored/release.motion3.json",
+          "pose": "",
+          "duration": 0.18,
+          "loop": false,
+          "blend": 0.1,
+          "sourceStart": 0,
+          "sourceEnd": -1,
+          "contentPending": true,
+          "ownedParameters": [
+            "ParamAngleY",
+            "ParamBodyAngleY",
+            "walk",
+            "walk2",
+            "ParamCollarPull",
+            "ParamHangBody",
+            "ParamHangAngle",
+            "walk9",
+            "walk8",
+            "walk10"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Shock",
+      "look": false,
+      "blink": true,
+      "breath": true,
+      "stages": [
+        {
+          "motion": "authored/shock.motion3.json",
+          "pose": "",
+          "duration": 0.22,
+          "loop": false,
+          "blend": 0.1,
+          "sourceStart": 0,
+          "sourceEnd": -1,
+          "contentPending": false,
+          "ownedParameters": [
+            "ParamAngleY",
+            "ParamBodyAngleZ",
+            "walk7"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Fall",
+      "look": false,
+      "blink": true,
+      "breath": true,
+      "stages": [
+        {
+          "motion": "authored/fall.motion3.json",
+          "pose": "",
+          "duration": 0.8,
+          "loop": true,
+          "blend": 0.1,
+          "sourceStart": 0,
+          "sourceEnd": -1,
+          "contentPending": false,
+          "ownedParameters": [
+            "ParamAngleY",
+            "ParamBodyAngleY",
+            "ParamBodyAngleZ",
+            "walk",
+            "walk2"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Land",
+      "look": false,
+      "blink": true,
+      "breath": true,
+      "stages": [
+        {
+          "motion": "authored/land.motion3.json",
+          "pose": "",
+          "duration": 0.28,
+          "loop": false,
+          "blend": 0.06,
+          "sourceStart": 0,
+          "sourceEnd": -1,
+          "contentPending": false,
+          "ownedParameters": [
+            "ParamAngleY",
+            "ParamBodyAngleY",
+            "walk",
+            "walk2"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Recover",
+      "look": false,
+      "blink": true,
+      "breath": true,
+      "stages": [
+        {
+          "motion": "authored/recover.motion3.json",
+          "pose": "",
+          "duration": 0.56,
+          "loop": false,
+          "blend": 0.1,
+          "sourceStart": 0,
+          "sourceEnd": -1,
+          "contentPending": false,
+          "ownedParameters": [
+            "ParamAngleY",
+            "ParamBodyAngleY",
+            "walk",
+            "walk2"
+          ]
+        }
+      ]
+    }
+  ],
+  "grabSwayDraft": {
+    "enabled": false,
+    "frequency": 4.5,
+    "damping": 1.6,
+    "initialVelocity": 1.8,
+    "speedLimit": 3,
+    "inputGain": 0.18,
+    "angle": 2,
+    "lift": 0.6,
+    "hip": 0.35
+  },
+  "landingResponse": {
+    "softSpeed": 200,
+    "hardSpeed": 1100,
+    "minStrength": 0.45,
+    "maxStrength": 1.15
+  },
+  "collarRig": {
+    "enabled": true,
+    "pull": "ParamCollarPull",
+    "hang": "ParamHangBody",
+    "swing": "ParamHangAngle"
+  }
+}
